@@ -48,3 +48,8 @@ po/*~
 
 # RStudio Connect folder
 rsconnect/
+
+# large downloaded data: keep on this computer, not on GitHub
+data/raw/*
+!data/raw/.gitkeep
+*.tif
